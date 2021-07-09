@@ -26,6 +26,9 @@ sudo chmod +x /usr/local/bin/server
   ```
   sudo server list
   ```
+<p align="center">
+	<img src="server3.png" width="1000px">
+</p>
 
 **For running a server run**
 
@@ -43,6 +46,17 @@ sudo chmod +x /usr/local/bin/server
 server python3 8000
 ```
 **This will start a server on** [localhost](https://127.0.0.1:8000)
+
+<p align="center">
+	<img src="server1.png" width="1000px">
+</p>
+
+<br>
+
+<p align="center">
+	<img src="server2.png" width="1000px">
+</p>
+
 
 * **Starting a php server**
 
