@@ -42,14 +42,14 @@ sudo chmod +x /usr/local/bin/server
 ```
 server python3 8000
 ```
-**This will start a server on** [localhost](127.0.0.1:8000)
+**This will start a server on** [localhost](https://127.0.0.1:8000)
 
 * **Starting a php server**
 
 ```
 server php 8000
 ```
-**And a server will start  on** [localhost](127.0.0.1:8000)
+**And a server will start  on** [localhost](https://127.0.0.1:8000)
 
 **And so on**
 
