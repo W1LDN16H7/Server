@@ -1,0 +1,50 @@
+#!/bin/bash
+# written by TheKnight
+# this can help you in so many ways
+echo "A script to run different local server on localhost"
+if [ "$1" == "list" ]; then
+  echo "Listing All Server"
+else
+  echo "Running $1 server on localhost"
+fi
+echo "Tip:Use ngrok to exposing your home to internet"
+if [ "$1" == "python3" ]; then
+
+  python3 -m http.server --bind 127.0.0.1 "$2"
+  echo "Done"
+
+
+
+elif [ "$1" == "python" ]; then
+  echo -e "\nThis will run on 0.0.0.0:$2"
+  python -m SimpleHTTPServer  "$2"
+  echo "Done"
+
+elif [ "$1" == "php" ]; then
+  php -S localhost:"$2"
+  echo "Done"
+
+elif [ "$1" == "ruby" ]; then
+  ruby -run -e httpd . -p"$2"
+  echo "Done"
+
+elif [ "$1" == "nodejs" ]; then
+  sudo apt install nodejs
+  sudo npm install -g http-server
+  http-server -p "$2"
+  echo "Done"
+
+elif [ "$1" == "list" ]; then
+  echo -e "\n Currently Server Included...\n\n\t1.Python3\n\t2.Python2\n\t3.PHP\n\t5.Ruby\n\t6.Nodejs"
+  echo -e "\nIf you like this script please add more"
+
+
+
+
+fi
+
+
+
+
+
+
