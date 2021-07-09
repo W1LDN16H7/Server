@@ -11,7 +11,7 @@
 **Change the permission to executable**
 
 ```bash
-https://github.com/W1LDN16H7/Server.git
+git clone https://github.com/W1LDN16H7/Server.git
 sudo mv server /usr/local/bin
 sudo chmod +x /usr/local/bin/server
 ```  
@@ -57,6 +57,6 @@ server php 8000
 **Add more one line server in the list on suggest me a will come with updated version**
 
 ## License
-**This free to use and modify all you have to pay is to give a star to the repo**
+**This free to use and modify all you have to pay is to give a** [star](https://github.com/W1LDN16H7/Server) **to the repo**
 
-**And star the project also you can follow me**
+**And star the project also you can** [Follow](https://github.com/W1LDN16H7/) **me**
