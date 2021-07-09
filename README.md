@@ -1,4 +1,4 @@
-# All server script
+# All one line server script
 **This bash script can save a lot of time for you**
  
 **Just execute it on your system and run a local server**
