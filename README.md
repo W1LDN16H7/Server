@@ -12,7 +12,7 @@
 
 ```bash
 git clone https://github.com/W1LDN16H7/Server.git
-sudo mv server /usr/local/bin
+cd Server && sudo mv server /usr/local/bin
 sudo chmod +x /usr/local/bin/server
 ```  
 
