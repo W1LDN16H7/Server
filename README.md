@@ -80,9 +80,9 @@ server php 8000
 **And so on**
 
 ## Add more 
-**Add more one line server in the list or suggest me a will come with updated version**
+**Add more one line server in the list or suggest me I will come with updated version**
 
 ## License
-**This free to use and modify all you have to pay is to give a** [star](https://github.com/W1LDN16H7/Server) **to the repo**
+**This is free to use and modify all you have to pay is to give a** [star](https://github.com/W1LDN16H7/Server) **to the repo**
 
-**And star the project also you can** [Follow](https://github.com/W1LDN16H7/) **me**
+**Also you can** [Follow](https://github.com/W1LDN16H7/) **me**
