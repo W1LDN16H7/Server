@@ -1,6 +1,6 @@
 **What's New**
 
--[x] Added Custom [Golang](https://golang.org) server
+- [x] Added Custom [Golang](https://golang.org) server
 
 # All one line server script
 **This bash script can save a lot of time for you**
