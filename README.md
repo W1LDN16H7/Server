@@ -70,6 +70,9 @@ server php 8000
 **And a server will start  on** [localhost](https://127.0.0.1:8000)
 
 * **Starting a golang server**
+```
+server go 8000
+```
 
 <br>
 <p align="center">
