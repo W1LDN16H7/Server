@@ -5,7 +5,7 @@ echo "A script to run different local server on localhost"
 if [ "$1" == "list" ]; then
   echo "Listing All Server"
 else
-  echo "Running $1 server on localhost"
+  echo "Running $1 server on localhost:$2"
 fi
 echo "Tip:Use ngrok to exposing your home to internet"
 if [ "$1" == "python3" ]; then
@@ -34,9 +34,18 @@ elif [ "$1" == "nodejs" ]; then
   http-server -p "$2"
   echo "Done"
 
+elif [ "$1" == "go" ]; then
+  if [ ! -f /usr/local/bin/goserver ]; then
+    sudo cp goserver /usr/local/bin/goserver
+    sudo chmod +x /usr/local/bin/goserver
+  fi
+  goserver "$2" "$(pwd)"
+  echo "Done"
+
+
 elif [ "$1" == "list" ]; then
-  echo -e "\n Currently Server Included...\n\n\t1.Python3\n\t2.Python2\n\t3.PHP\n\t5.Ruby\n\t6.Nodejs"
-  echo -e "\nIf you like this script please add more"
+  echo -e "\n Currently Server Included...\n\n\t1.Python3\n\t2.Python2\n\t3.PHP\n\t5.Ruby\n\t6.Nodejs\n\t7.Golang"
+  echo -e "\nIf you like this script please add more one line servers"
 
 
 

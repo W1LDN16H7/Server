@@ -1,3 +1,7 @@
+**What's New**
+
+-[x] Added Custom [Golang](https://golang.org) server
+
 # All one line server script
 **This bash script can save a lot of time for you**
  
@@ -64,6 +68,14 @@ server python3 8000
 server php 8000
 ```
 **And a server will start  on** [localhost](https://127.0.0.1:8000)
+
+* **Starting a golang server**
+
+<br>
+<p align="center">
+	<img src="server4.png" width="1000px">
+</p>
+
 
 **And so on**
 
