@@ -10,7 +10,7 @@
 ## Install
 **Clone the repo**
 
-**And mv server to your env path so you can access it from anywhere**
+**And mv server to a local bin so you can access it from anywhere**
 
 **Change the permission to executable**
 
