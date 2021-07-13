@@ -86,6 +86,7 @@ server go 8000
 **Add more one line server in the list or suggest me I will come with updated version**
 
 ## License
-**This is free to use and modify all you have to pay is to give a** [star](https://github.com/W1LDN16H7/Server) **to the repo**
+**This is free to use and modify all you have to do is to give a** [star](https://github.com/W1LDN16H7/Server) **to the
+script**
 
 **Also you can** [Follow](https://github.com/W1LDN16H7/) **me**
