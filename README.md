@@ -40,7 +40,7 @@ sudo chmod +x /usr/local/bin/server
   sudo server <server> <port>
   ```
 
-**without these <> sign**
+**without these < > sign**
 
 ## Examples
 
