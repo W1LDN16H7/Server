@@ -33,7 +33,7 @@ install_dependencies(){
   echo -e "${BLUE}Installing dependencies"
   if [ "$distros" == "deb" ]; then
 
-    for i in {"nodejs","npm","unzip","python","python3","php*","ruby"};do
+    for i in {"nodejs","npm","python","python3","php*","ruby"};do
       sudo apt-get install $i -y
   
     done
@@ -41,7 +41,7 @@ install_dependencies(){
 
 
   elif [ "$distros" == "redhat" ]; then
-   for i in {"nodejs","npm","unzip","python","python3","php*","ruby"};do
+   for i in {"nodejs","npm","python","python3","php*","ruby"};do
       sudo dnf install $i -y
   
     done
@@ -50,7 +50,7 @@ install_dependencies(){
 
   
   elif [ "$distros" == "arch" ]; then
-    for i in {"nodejs","npm","unzip","python","python3","php*","ruby"};do
+    for i in {"nodejs","npm","python","python3","php*","ruby"};do
       sudo pacman install $i -y
   
     done
